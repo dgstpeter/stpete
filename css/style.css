@@ -1,0 +1,37 @@
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    border: 1px solid black;
+    width: 450px;
+    padding: 15px;
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    height: 10px;
+}
+th:first-child, td:first-child {
+    text-align: left;}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: red;
+}
